@@ -1,0 +1,37 @@
+table,
+tr,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+table {
+  width: 700px;
+}
+
+a {
+  color: blue;
+}
+.decoretion-text-initial {
+  text-decoration: none;
+}
+.couleur,
+.couleur-initial:hover {
+  color: red;
+}
+.taille-police,
+.taille-police-initial:hover {
+  font-size: 28px;
+}
+.arriere-plan,
+.arriere-plan-initial:hover {
+  background-color: seagreen;
+}
+.type-police,
+.type-police-initial:hover {
+  font-family: "Lucida Console", Courier, monospace;
+}
+.decoretion-text,
+.decoretion-text-initial:hover {
+  text-decoration: underline;
+}

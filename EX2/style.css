@@ -1,0 +1,28 @@
+table,
+tr,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+table {
+  width: 500px;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+}
+td {
+  height: 50px;
+}
+.etat-initial {
+  border: 1px solid #4caf50;
+  color: #000;
+  background-color: #fff;
+}
+.apres-passage,
+.etat-initial:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
